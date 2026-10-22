@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:#08080c;color:#fff;font-family:Arial,sans-serif}
+button,input,textarea,select{font:inherit}
+.gradient{background:radial-gradient(circle at 50% -10%,rgba(124,58,237,.28),transparent 40%),#08080c}
+.card{background:rgba(20,20,28,.78);border:1px solid rgba(255,255,255,.08);backdrop-filter:blur(16px)}
